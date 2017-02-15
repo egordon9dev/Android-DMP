@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginLeft="80sp"
+        android:text="------- Gyro App --------\n by: Ethan Gordon" />
+
+    <TextView
+        android:id="@+id/textGX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="0sp"
+        android:text="textGX" />
+
+    <TextView
+        android:id="@+id/textGY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="0sp"
+        android:text="textGY" />
+    <TextView
+        android:id="@+id/textGZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:textSize="33sp"
+        android:layout_marginLeft="0sp"
+        android:text="textGZ" />
+    <TextView
+        android:id="@+id/textAX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="0sp"
+        android:text="textAX" />
+
+    <TextView
+        android:id="@+id/textAY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="0sp"
+        android:text="textAY" />
+    <TextView
+        android:id="@+id/textAZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:textSize="33sp"
+        android:layout_marginLeft="0sp"
+        android:text="" />
+    <TextView
+        android:id="@+id/textFilteredX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="0sp"
+        android:text="textFilteredX" />
+
+    <TextView
+        android:id="@+id/textFilteredY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="0sp"
+        android:text="textFilteredY" />
+    <TextView
+        android:id="@+id/textFilteredZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:textSize="33sp"
+        android:layout_marginLeft="0sp"
+        android:text="textFilteredZ" />
+
+</LinearLayout>
